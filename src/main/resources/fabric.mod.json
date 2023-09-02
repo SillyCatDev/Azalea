@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "azaleawood",
+  "version": "1.0-1.20.1",
+
+  "name": "Azalea Wood Mod",
+  "description": "A mod originally titled FardMod but was changed. It was made to pass time and then when i show it to my friends, i can flex on them lol.",
+  "authors": [
+    "MudbloodProgrammer"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thatnoob.azaleawood.AzaleaWood"
+    ],
+    "client": [
+      "net.thatnoob.azaleawood.AzaleaWoodClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": ">=1.19.3",
+    "java": ">=17",
+    "terraform-wood-api-v1": ">=6.1.0"
+  }
+}
